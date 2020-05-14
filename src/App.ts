@@ -4,7 +4,7 @@ import { Main } from "./Main";
 
 export class App
 {
-    private _appName: string = "Awesome TypeScript, React, Parcel App!";
+    private _appName: string = "Awesome TypeScript, React, Parcel App 16!";
 
     constructor()
     {

@@ -1,8 +1,9 @@
 {
   "devDependencies": {
+    "@parcel/validator-typescript": "^2.0.0-alpha.3",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
-    "parcel-bundler": "^1.12.3",
+    "parcel": "^2.0.0-alpha.3.2",
     "typescript": "^3.5.3"
   },
   "dependencies": {
@@ -10,7 +11,7 @@
     "react-dom": "^16.8.6"
   },
   "scripts": {
-    "dev": "parcel src/index.html --out-dir build/debug",
+    "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --out-dir build/release --public-url ./"
   }
 }
